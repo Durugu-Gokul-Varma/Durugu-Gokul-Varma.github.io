@@ -110,6 +110,24 @@ nav ul li a:hover {
     border: 4px solid #4da6ff;
     box-shadow: 0 0 20px rgba(77,166,255,0.5);
 }
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
 
 
 
